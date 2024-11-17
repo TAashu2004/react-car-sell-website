@@ -1,0 +1,195 @@
+.counter-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:transparent;
+    color: #fff; 
+    padding: 20px;
+  }
+  
+  .counter-item {
+    text-align: center;
+  }
+  
+  .counter-number {
+    font-size: 48px; 
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .counter-label {
+    font-size: 16px; 
+  }
+  
+  .vertical-line {
+    border-left: 1px solid #ccc; 
+    height: 60px;
+  }
+
+
+
+  @media only screen and (max-width: 1200px) {
+    .counter-number {
+        font-size: 20px;
+      }
+
+  }
+
+
+
+
+
+
+  .testimonials {
+    padding: 40px; 
+  }
+  
+  .testimonial {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px; 
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 18px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial span {
+    font-size: 16px;
+    color: red;
+  }
+
+
+
+
+
+  .container {
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .fc {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff0000; /* Red color */
+  }
+  
+  .fusion-cars {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .call-us {
+    margin: 0 20px;
+  }
+  
+  .call-us-title {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .call-us-number {
+    font-size: 16px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .info-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .info-content {
+    font-size: 16px;
+  }
+  
+  .map-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #ff0000; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s; 
+    cursor: pointer; 
+  }
+  
+  .map-button:hover {
+    background-color: #ffffff; 
+  }
+  
+  .map-icon {
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .map-button:hover .map-icon i {
+    color: #ff0000; 
+  }
+  
+  .map-button:hover .map-text {
+    color: #ff0000; 
+  }
+  
+  .map-text {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+  
+  .powered-by {
+    font-size: 14px;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icon {
+    margin-left: 10px;
+    color: #fff;
+  }

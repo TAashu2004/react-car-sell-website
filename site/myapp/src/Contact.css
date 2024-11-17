@@ -1,0 +1,196 @@
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+  }
+  
+  .form-container {
+    padding: 20px; 
+  }
+  
+  .contact-form .form-control {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid red; 
+    background-color: black; 
+    color: white;
+    transition: box-shadow 0.3s ease; 
+  }
+  
+  .contact-form .form-control:hover {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8); 
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 15px; 
+  }
+  
+  
+  .contact-form .is-invalid {
+    border: 1px solid red;
+  }
+  
+  .contact-form .invalid-feedback {
+    font-size: 14px;
+    margin-top: 5px;
+    color: red; 
+  }
+  
+  .contact-form .btn {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    transition: box-shadow 0.3s ease; 
+  }
+  
+  .contact-form .btn:hover {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8); 
+  }
+  
+  .contact-form textarea.form-control {
+    height: 120px; 
+    resize: vertical; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .container {
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .fc {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff0000; 
+  }
+  
+  .fusion-cars {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .call-us {
+    margin: 0 20px;
+  }
+  
+  .call-us-title {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .call-us-number {
+    font-size: 16px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .info-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .info-content {
+    font-size: 16px;
+  }
+  
+  .map-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #ff0000; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s; 
+    cursor: pointer; 
+  }
+  
+  .map-button:hover {
+    background-color: #ffffff; 
+  }
+  
+  .map-icon {
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .map-button:hover .map-icon i {
+    color: #ff0000; 
+  }
+  
+  .map-button:hover .map-text {
+    color: #ff0000; 
+  }
+  
+  .map-text {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+  
+  .powered-by {
+    font-size: 14px;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icon {
+    margin-left: 10px;
+    color: #fff;
+  }

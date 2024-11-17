@@ -1,0 +1,12 @@
+.nav-item {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.80s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    text-decoration:underline;
+    text-decoration-color: red;
+    text-decoration-style: solid;
+    text-decoration-thickness: 4px;
+  }
